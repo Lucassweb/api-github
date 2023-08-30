@@ -1,8 +1,11 @@
-const Home = () => {
+import Search from "../components/Search";
 
-    return (
-        <div>Home</div>
-    )
-}
+const Home = () => {
+  return (
+    <div>
+      <Search />
+    </div>
+  );
+};
 
 export default Home;
