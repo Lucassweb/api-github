@@ -1,6 +1,7 @@
 import { UserProps } from "../types/user";
 import { MdLocationPin } from 'react-icons/md';
 
+
 const User = ({
   avatar_url,
   login,
@@ -24,6 +25,7 @@ const User = ({
                 <p>Seguindo:</p>
                 <p>{following}</p>
             </div>
+            
         </div>
     )
 };
