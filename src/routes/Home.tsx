@@ -2,7 +2,7 @@ import { useState } from "react";
 import Search from "../components/Search";
 import { UserProps } from "../types/user";
 
-import User  from '../components/User';
+import User from "../components/User";
 
 const Home = () => {
   //Estou inicializando null, para saber quando tem usuario e quando nao tem
@@ -30,8 +30,7 @@ const Home = () => {
       <Search loadUser={loadUser} />
       {user && <p>{user.login}</p>}{" "}
       {/*  Fazendo verificação se usuário existi */}
-
-      {user && <User {...user}/>}
+      {user && <User {...user} />}
     </div>
   );
 };
